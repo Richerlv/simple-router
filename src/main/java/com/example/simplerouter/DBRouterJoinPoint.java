@@ -56,6 +56,13 @@ public class DBRouterJoinPoint {
     }
 
     public String getAttrValue(String attr, Object[] args) {
+        if (1 == args.length) {
+            Object arg = args[0];
+            if (arg instanceof String) {
+                return arg.toString();
+            }
+        }
+
         String fieldValue = null;
         for(Object arg : args) {
             try {
