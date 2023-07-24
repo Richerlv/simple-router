@@ -18,6 +18,9 @@
 1.为什么要做这个、跟其他的有什么不同  --比较轻量
 2.其他实现方案
 3.怎么解决跨库表的join问题
+https://developer.aliyun.com/article/248259
 4.是否支持分布式部署的库表，在这一层上有容灾设计吗
+https://www.infoq.cn/article/solution-of-distributed-system-transaction-consistency/
 5.支不支持数据库连接池和ORM框架
 6.如果查询时需要新的id是不是需要算回来？？
+https://zhuanlan.zhihu.com/p/136963357
